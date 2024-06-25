@@ -1,0 +1,774 @@
+<script>self.__next_f.push([1,"8:I{\"id\":7948,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b.js\",\"596:static/chunks/596-84480c7d42984dba.js\"],\"name\":\"default\",\"async\":false}\na:I{\"id\":6628,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b.js\",\"596:static/chunks/596-84480c7d42984dba.js\"],\"name\":\"\",\"async\":false}\nb:I{\"id\":7767,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b."])</script>
+<html lang="en"><head><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="stylesheet" href="/_next/static/css/d5f331c552df0980.css" data-precedence="next"><link rel="stylesheet" href="/_next/static/css/455380e8d74e6160.css" data-precedence="next"><link rel="stylesheet" href="/_next/static/css/6a1df6555afb0d93.css" data-precedence="next"><link rel="stylesheet" href="/_next/static/css/8d65e1c3c9e76815.css" data-precedence="next"><link rel="stylesheet" href="/_next/static/css/c8bc9daa59981738.css" data-precedence="next"><link rel="stylesheet" href="/_next/static/css/e9f133e8f5b281e9.css" data-precedence="next"><script src="https://connect.facebook.net/signals/config/457668893262694?v=2.9.158&amp;r=stable&amp;domain=wigglz.co&amp;hme=446fb981c8c3baeb03730fe3cbd404f7f15f64c693f24c7fe75da498bc2c95d8&amp;ex_m=67%2C113%2C100%2C104%2C58%2C3%2C93%2C66%2C15%2C91%2C84%2C49%2C51%2C160%2C163%2C174%2C170%2C171%2C173%2C28%2C94%2C50%2C73%2C172%2C155%2C158%2C167%2C168%2C175%2C122%2C14%2C48%2C180%2C179%2C124%2C17%2C33%2C38%2C1%2C41%2C62%2C63%2C64%2C68%2C88%2C16%2C13%2C90%2C87%2C86%2C101%2C103%2C37%2C102%2C29%2C25%2C156%2C159%2C131%2C27%2C10%2C11%2C12%2C5%2C6%2C24%2C21%2C22%2C54%2C59%2C61%2C71%2C95%2C26%2C72%2C8%2C7%2C76%2C46%2C20%2C97%2C96%2C98%2C9%2C19%2C18%2C81%2C53%2C79%2C32%2C70%2C0%2C89%2C31%2C78%2C83%2C45%2C44%2C82%2C36%2C4%2C85%2C77%2C42%2C39%2C34%2C80%2C2%2C35%2C60%2C40%2C99%2C43%2C75%2C65%2C105%2C57%2C56%2C30%2C92%2C55%2C52%2C47%2C74%2C69%2C23%2C106" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script><meta charset="utf-8"><title>Wigglz - Premium Pet Food Kitchen in Lebanon, KSA, and UAE!</title><meta name="description" content="Wigglz, your go-to Pet Food Kitchen in Lebanon, offers premium and nutritious meals for your beloved pets. Explore our carefully crafted selection of pet meals to keep your furry friends happy and healthy. Order now for a tail-wagging experience!"><meta name="keywords" content="Pet Food Lebanon,Premium Pet Meals,Nutritious Pet Food,Wigglz Pet Kitchen,Healthy Pet Diet,Lebanon Pet Store,Tail-Wagging Experience,Pet Nutrition Lebanon."><meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:description" content="Discover Wigglz, Lebanon's finest Pet Food Kitchen, providing high-quality and nutritious meals for your pets. Our carefully curated selection ensures your furry companions receive the best in taste and nutrition. Explore our range and treat your pets to a delightful culinary experience with Wigglz!"><meta property="og:image" content="https://wigglz.co/images/LOGO.png"><meta name="twitter:card" content="summary"><meta name="twitter:description" content="Discover Wigglz, Lebanon's finest Pet Food Kitchen, providing high-quality and nutritious meals for your pets. Our carefully curated selection ensures your furry companions receive the best in taste and nutrition. Explore our range and treat your pets to a delightful culinary experience with Wigglz!"><meta name="twitter:image" content="https://wigglz.co/images/LOGO.png"><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="256x256"></head><body><script src="/_next/static/chunks/webpack-aee80091d333ce1a.js" async=""></script><script src="/_next/static/chunks/fd9d1056-6ae2dad406546e0b.js" async=""></script><script src="/_next/static/chunks/596-84480c7d42984dba.js" async=""></script><script src="/_next/static/chunks/main-app-db1c25501d8471e2.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/d5f331c552df0980.css\",{\"as\":\"style\"}]\n2:HL[\"/_next/static/css/455380e8d74e6160.css\",{\"as\":\"style\"}]\n3:HL[\"/_next/static/css/6a1df6555afb0d93.css\",{\"as\":\"style\"}]\n4:HL[\"/_next/static/css/8d65e1c3c9e76815.css\",{\"as\":\"style\"}]\n0:\"$L5\"\n"])</script><script>self.__next_f.push([1,"6:HL[\"/_next/static/css/c8bc9daa59981738.css\",{\"as\":\"style\"}]\n7:HL[\"/_next/static/css/e9f133e8f5b281e9.css\",{\"as\":\"style\"}]\n"])</script><script>self.__next_f.push([1,"8:I{\"id\":7948,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b.js\",\"596:static/chunks/596-84480c7d42984dba.js\"],\"name\":\"default\",\"async\":false}\na:I{\"id\":6628,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b.js\",\"596:static/chunks/596-84480c7d42984dba.js\"],\"name\":\"\",\"async\":false}\nb:I{\"id\":7767,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b."])</script><script>self.__next_f.push([1,"js\",\"596:static/chunks/596-84480c7d42984dba.js\"],\"name\":\"default\",\"async\":false}\nc:I{\"id\":7920,\"chunks\":[\"2272:static/chunks/webpack-aee80091d333ce1a.js\",\"2971:static/chunks/fd9d1056-6ae2dad406546e0b.js\",\"596:static/chunks/596-84480c7d42984dba.js\"],\"name\":\"default\",\"async\":false}\nd:\"$Sreact.suspense\"\nf:I{\"id\":6927,\"chunks\":[\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"3185:static/chunks/app/layout-3bd543905bdc2d45.js\"],\"name\":\"GoogleTagManager\",\"async\":false}\n10:I{\"id\":3015,\"chunks\":[\"3015:static/chunks/3"])</script><script>self.__next_f.push([1,"015-5fe0551fc77ded48.js\",\"3185:static/chunks/app/layout-3bd543905bdc2d45.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"5:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/d5f331c552df0980.css\",\"precedence\":\"next\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/455380e8d74e6160.css\",\"precedence\":\"next\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/6a1df6555afb0d93.css\",\"precedence\":\"next\"}],[\"$\",\"link\",\"3\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8d65e1c3c9e76815.css\",\"precedence\":\"next\"}]],[\"$\",\"$L8\",null,{\"buildId\":\"ZLM3RYAGeVz5RFH0gz9ef\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/en/shop\",\"initialTree\":[\"\",{\"children\":[[\"lang\",\"en\",\"d\"],{\"children\":[\"shop\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":\"$L9\",\"globalErrorComponent\":\"$a\",\"children\":[null,[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"body\",null,{\"children\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[null,[\"$\",\"$d\",null,{\"fallback\":[\"$\",\"div\",null,{\"id\":\"col\",\"children\":[[\"$\",\"svg\",null,{\"id\":\"svg-sprite\",\"children\":[\"$\",\"symbol\",null,{\"id\":\"paw\",\"viewBox\":\"0 0 249 209.32\",\"children\":[[\"$\",\"ellipse\",null,{\"cx\":\"27.917\",\"cy\":\"106.333\",\"strokeWidth\":\"0\",\"rx\":\"27.917\",\"ry\":\"35.833\"}],[\"$\",\"ellipse\",null,{\"cx\":\"84.75\",\"cy\":\"47.749\",\"strokeWidth\":\"0\",\"rx\":\"34.75\",\"ry\":\"47.751\"}],[\"$\",\"ellipse\",null,{\"cx\":\"162\",\"cy\":\"47.749\",\"strokeWidth\":\"0\",\"rx\":\"34.75\",\"ry\":\"47.751\"}],[\"$\",\"ellipse\",null,{\"cx\":\"221.083\",\"cy\":\"106.333\",\"strokeWidth\":\"0\",\"rx\":\"27.917\",\"ry\":\"35.833\"}],[\"$\",\"path\",null,{\"strokeWidth\":\"0\",\"d\":\"M43.98 165.39s9.76-63.072 76.838-64.574c0 0 71.082-6.758 83.096 70.33 0 0 2.586 19.855-12.54 31.855 0 0-15.75 17.75-43.75-6.25 0 0-7.124-8.374-24.624-7.874 0 0-12.75-.125-21.5 6.625 0 0-16.375 18.376-37.75 12.75 0 0-28.29-7.72-19.77-42.86z\"}]]}]}],[\"$\",\"div\",null,{\"className\":\"ajax-loader\",\"children\":[[\"$\",\"div\",null,{\"className\":\"paw\",\"children\":[\"$\",\"svg\",null,{\"className\":\"icon\",\"children\":[\"$\",\"use\",null,{\"xlinkHref\":\"#paw\"}]}]}],[\"$\",\"div\",null,{\"className\":\"paw\",\"children\":[\"$\",\"svg\",null,{\"className\":\"icon\",\"children\":[\"$\",\"use\",null,{\"xlinkHref\":\"#paw\"}]}]}],[\"$\",\"div\",null,{\"className\":\"paw\",\"children\":[\"$\",\"svg\",null,{\"className\":\"icon\",\"children\":[\"$\",\"use\",null,{\"xlinkHref\":\"#paw\"}]}]}],[\"$\",\"div\",null,{\"className\":\"paw\",\"children\":[\"$\",\"svg\",null,{\"className\":\"icon\",\"children\":[\"$\",\"use\",null,{\"xlinkHref\":\"#paw\"}]}]}],[\"$\",\"div\",null,{\"className\":\"paw\",\"children\":[\"$\",\"svg\",null,{\"className\":\"icon\",\"children\":[\"$\",\"use\",null,{\"xlinkHref\":\"#paw\"}]}]}],[\"$\",\"div\",null,{\"className\":\"paw\",\"children\":[\"$\",\"svg\",null,{\"className\":\"icon\",\"children\":[\"$\",\"use\",null,{\"xlinkHref\":\"#paw\"}]}]}]]}]]}],\"children\":\"$Le\"}],null],\"segment\":[\"lang\",\"en\",\"d\"]},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/c8bc9daa59981738.css\",\"precedence\":\"next\"}]]}]}],[\"$\",\"$Lf\",null,{\"gtmId\":\"GTM-WP8GX2PQ\"}],[[\"$\",\"$L10\",null,{\"children\":\"\\n                !function(f,b,e,v,n,t,s)\\n                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\\n                n.callMethod.apply(n,arguments):n.queue.push(arguments)};\\n                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\\n                n.queue=[];t=b.createElement(e);t.async=!0;\\n                t.src=v;s=b.getElementsByTagName(e)[0];\\n                s.parentNode.insertBefore(t,s)}(window, document,'script',\\n                'https://connect.facebook.net/en_US/fbevents.js');\\n                fbq('init', '457668893262694');\\n                fbq('track', 'PageView');\\n                \"}],[\"$\",\"noscript\",null,{\"children\":[\"$\",\"img\",null,{\"height\":\"1\",\"width\":\"1\",\"style\":{\"display\":\"none\"},\"src\":\"https://www.facebook.com/tr?id=457668893262694\u0026ev=PageView\u0026noscript=1\"}]}]]]}],null]}]]\n"])</script><script>self.__next_f.push([1,"9:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Wigglz - Premium Pet Food Kitchen in Lebanon, KSA, and UAE!\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Wigglz, your go-to Pet Food Kitchen in Lebanon, offers premium and nutritious meals for your beloved pets. Explore our carefully crafted selection of pet meals to keep your furry friends happy and healthy. Order now for a tail-wagging experience!\"}],[\"$\",\"meta\",\"3\",{\"name\":\"keywords\",\"content\":\"Pet Food Lebanon,Premium Pet Meals,Nutritious Pet Food,Wigglz Pet Kitchen,Healthy Pet Diet,Lebanon Pet Store,Tail-Wagging Experience,Pet Nutrition Lebanon.\"}],[\"$\",\"meta\",\"4\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"Discover Wigglz, Lebanon's finest Pet Food Kitchen, providing high-quality and nutritious meals for your pets. Our carefully curated selection ensures your furry companions receive the best in taste and nutrition. Explore our range and treat your pets to a delightful culinary experience with Wigglz!\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"https://wigglz.co/images/LOGO.png\"}],[\"$\",\"meta\",\"7\",{\"name\":\"twitter:card\",\"content\":\"summary\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:description\",\"content\":\"Discover Wigglz, Lebanon's finest Pet Food Kitchen, providing high-quality and nutritious meals for your pets. Our carefully curated selection ensures your furry companions receive the best in taste and nutrition. Explore our range and treat your pets to a delightful culinary experience with Wigglz!\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:image\",\"content\":\"https://wigglz.co/images/LOGO.png\"}],[\"$\",\"link\",\"10\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"256x256\"}]]\n"])</script><script>self.__next_f.push([1,"11:I{\"id\":519,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"12:I{\"id\":8490,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"AuthProvider\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"13:I{\"id\":6316,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"14:I{\"id\":8689,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"WishlistProvider\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"15:I{\"id\":9114,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"LocaleProvider\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"16:I{\"id\":7481,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"CartProviderV2\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"17:I{\"id\":9897,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"18:I{\"id\":3303,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"19:I{\"id\":6307,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1c:I{\"id\":4430,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1d:I{\"id\":8775,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1e:I{\"id\":5788,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"9294:static/chunks/9294-68f6a3e8256b87e3.js\",\"6545:static/chunks/6545-6a699286725f3a62.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"1084:static/chunks/app/[lang]/layout-74806f4f2c4e3252.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"e:[\"$\",\"$L11\",null,{\"children\":[\"$\",\"$L12\",null,{\"user\":null,\"children\":[\"$\",\"$L13\",null,{\"locale\":\"en\",\"messages\":{\"website_title\":\"Wigglz\",\"my_information\":\"My Information\",\"first_name_is_required\":\"First name is required\",\"last_name_is_required\":\"Last name is required\",\"invalid_email_address\":\"Invalid email address\",\"email_is_required\":\"Email is required\",\"password_must_be_at_least_8_characters\":\"Password must be at least 8 characters\",\"password_is_required\":\"Password is required\",\"confirm_password_must_be_at_least_8_characters\":\"Confirm password must be at least 8 characters\",\"confirm_password_is_required\":\"Confirm password is required\",\"phone_number_is_required\":\"Phone number is required\",\"date_of_birth_is_required\":\"Date of birth is required\",\"gender_is_required\":\"Gender is required\",\"country_is_required\":\"Country is required\",\"registered_and_logged_in\":\"Registered and logged in\",\"first_name\":\"First Name\",\"last_name\":\"Last Name\",\"country\":\"Country\",\"gender\":\"Gender\",\"date_of_birth\":\"Date of Birth\",\"email\":\"Email\",\"phone_number\":\"Phone Number\",\"password\":\"Password\",\"password_confirmation\":\"Confirm Password\",\"news_letter_confirmation\":\"Subscribe to Newsletter\",\"pick_one\":\"Pick One\",\"full_name\":\"Full Name\",\"full_name_is_required\":\"full name is required\",\"add_to_cart\":\"Add To Cart\",\"add_to_wishlist\":\"Add To Wishlist\",\"search\":\"Search\",\"stories_title_home\":\"Real stories. Real results.\",\"stories_description_home\":\"Trusted by 1000s of pet parents and loved by even more dogs and cats.\",\"faq\":\"FAQs\",\"kitchen_home_title\":\"About Our Kitchen.\",\"kitchen_home_description\":\"Trusted by 1000s of pet parents and loved by even more dogs and cats.\",\"category_name\":\"Category Name\",\"brand_name\":\"Brand Name\",\"remove_cart\":\"Remove\",\"add_cart\":\"Add To Cart\",\"wishlist_add\":\"Add To Wishlist\",\"product_slider_title\":\"Your pet will also love...\",\"go_to_shop_page\":\"Go To Shop Page\",\"next\":\"Next\",\"back\":\"Back\",\"add_new\":\"Add New\",\"finish\":\"Finish\",\"payment_method\":\"Payment Method\",\"total\":\"Total\",\"total_price\":\"Total Price\",\"please_provide_your_personal_information\":\"Please provide your personal information\",\"select_an_address\":\"Select an address\",\"loading\":\"Loading...\",\"hide\":\"Hide\",\"submit\":\"Submit\",\"remove_from_cart\":\"Remove From Cart\",\"remove_to_wishlist\":\"Remove From Wishlist\",\"logged_in_successfully\":\"You Have Been Logged In Successfully\",\"select_payment_method\":\"Please Select Payment Method\",\"shop_by_category\":\"Shop By Category\",\"categories\":\"Categories\",\"brands\":\"Brands\",\"discover_product\":\"Discover Our Products.\",\"product_sec_home\":\"Trusted by 1000s of pet parents and loved by even more dogs and cats.\",\"shop_category\":\"Shop by Category\",\"select_addresses\":\"Please Select Addresses\",\"create_new_account\":\"Create New Account\",\"login\":\"Login\",\"login_header\":\"Login to our site\",\"login_sub_title\":\"If you have an account with us, log in using your email address.\",\"subtotal\":\"Subtotal\",\"checkout\":\"Checkout\",\"dogs\":\"Dogs\",\"cats\":\"Cats\",\"our_story\":\"Our Story\",\"contact_us\":\"Contact Us\",\"shop\":\"Shop\",\"register\":\"Register\",\"reset_password\":\"Reset Password\",\"check_you_email_msg\":\"Check you email address to reset your password.\",\"forgot_password\":\"Forgot Password?\",\"forgot_password_page\":\"Forgot Password Page\",\"forgot_password_description\":\"We will send you an email to reset your password.\",\"please_check_your_email\":\"Please check your email address to reset your password.\",\"reset_password_page\":\"Reset Password Page\",\"password_reset_successfully\":\"Password reset successfully\",\"orders\":\"Orders\",\"order_number\":\"Order Number\",\"payment_status\":\"Payment Status\",\"status\":\"Status\",\"address\":\"Address\",\"created_at\":\"Created At\",\"action\":\"Action\",\"invoice_to\":\"Invoice To\",\"payment_details\":\"Payment Details\",\"total_due\":\"Total Due\",\"invoice\":\"Invoice\",\"date_issued\":\"Date Issued\",\"product_image\":\"Product Image\",\"product_info\":\"Product Info\",\"quantity\":\"Quantity\",\"unit_price\":\"Unit Price\",\"tax\":\"Tax\",\"check_out\":\"Check Out\",\"confirm_password\":\"Confirm Password\",\"sale_order_was_created\":\"Sale order was created\",\"pet_types\":\"Pet Types\",\"message\":\"Message\",\"send\":\"Send\",\"contact_us_title\":\"How can we help you?\",\"contact_us_description\":\"If you have any questions or concerns, please contact us\",\"email_us_at\":\"Email us at\",\"phone\":\"Phone\",\"phone_us_at\":\"Phone us at\",\"contact_hours\":\"Contact Hours\",\"location\":\"Location\",\"find_us\":\"Find us on social media\",\"register_now\":\"Register Now\",\"register_description\":\"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses.\",\"building_number_is_required\":\"Building Number is required\",\"street_address_is_required\":\"Street Address is required\",\"city_is_required\":\"City is required\",\"add_address\":\"Add Address\",\"building_number\":\"Building Number\",\"street_address\":\"Street Address\",\"city\":\"City\",\"ingredients\":\"Ingredients\",\"instructions\":\"Instructions\",\"current_password_is_required\":\"Current password is required\",\"passwords_must_match\":\"Passwords must match\",\"new_password_is_required\":\"New password is required\",\"change_password\":\"Change Password\",\"current_password\":\"Current password\",\"new_password\":\"New password\",\"image_deleted_successfully\":\"Image Deleted Successfully\",\"delete\":\"Delete\",\"delete_profile\":\"Delete profile image\",\"delete_profile_description\":\"Are you sure you want to delete image?\",\"image_changed_successfully\":\"Image changed successfully\",\"update\":\"Update\",\"upload_image_description\":\"Upload an image\",\"edit_profile_image\":\"Edit profile image\",\"cancel\":\"Cancel\",\"edit\":\"Edit\",\"edit_info\":\"Edit Info\",\"add_pet\":\"Add Pet\",\"name\":\"Name\",\"weight\":\"Weight\",\"pet_breeds\":\"Pet Breeds\",\"add\":\"Add\",\"confirm_your_order\":\"Confirm Your Order\",\"personal_information\":\"Personal Information\",\"products\":\"Products\",\"my_info\":\"My Info\",\"addresses\":\"Addresses\",\"wishlist\":\"Wishlist\",\"pets\":\"Pets\",\"logout\":\"Logout\",\"actions\":\"Actions\",\"delivery_addresses\":\"Delivery Addresses\",\"next_page\":\"Next Page\",\"prev_page\":\"Prev Page\",\"success\":\"Success!\",\"success_message\":\"Your Process has been placed successfully.\",\"are_you_sure\":\"Are you sure?\",\"delete_message\":\"You won't be able to revert this!\",\"delete_confirm\":\"Yes, delete it\",\"choose_from_the_list\":\"Choose from the list\",\"no_items\":\"No Items\",\"no_data\":\"No Data\",\"terms_\u0026_conditions\":\"Terms \u0026 Conditions\",\"privacy_policy\":\"Privacy Policy\",\"profile\":\"Profile\",\"profile_image\":\"Profile Image\",\"my_cart\":\"My Cart\",\"see_more\":\"See More\",\"see_less\":\"See Less\",\"shop_for_more\":\"Shop for More\",\"why_fresh\":\"Why fresh?\",\"message_us\":\"Message Us\",\"wigglz_pages\":\"Wigglz Pages\",\"health_condition\":\"Health Condition\",\"guaranteedAnalysis\":\"Guaranteed Analysis\",\"stageOfLife\":\"Stage Of Life\",\"area\":\"Area\",\"Street_and_Building_Name\":\"Street and Building Name\"},\"children\":[\"$\",\"$L14\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"relative z-[5]\",\"dir\":\"ltr\",\"lang\":\"en\",\"children\":[\"$\",\"$L15\",null,{\"children\":[\"$\",\"$L16\",null,{\"children\":[[\"$\",\"$L17\",null,{}],[\"$\",\"header\",null,{\"children\":[[\"$\",\"$L18\",null,{}],[\"$\",\"$L19\",null,{}]]}],[\"$\",\"div\",null,{\"lang\":\"en\",\"children\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",[\"lang\",\"en\",\"d\"],\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",[\"lang\",\"en\",\"d\"],\"children\",\"shop\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$L1a\",\"$L1b\",null],\"segment\":\"__PAGE__\"},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/e9f133e8f5b281e9.css\",\"precedence\":\"next\"}]]}],\"segment\":\"shop\"},\"styles\":[]}]}],[\"$\",\"$L1c\",null,{}],[\"$\",\"$L1d\",null,{\"multiTypeSettings\":[{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":1,\"settingKey\":\"FACEBOOK_LINK\",\"value\":\"https://www.facebook.com/Wigglzfreshfood\",\"createdAt\":\"2023-07-24T14:28:33+00:00\",\"updatedAt\":\"2024-05-13T17:19:24+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":2,\"settingKey\":\"INSTAGRAM_LINK\",\"value\":\"https://instagram.com/wigglz4pets\",\"createdAt\":\"2023-07-24T14:30:11+00:00\",\"updatedAt\":\"2024-02-14T15:21:42+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":3,\"settingKey\":\"YOUTUBE_LINK\",\"value\":null,\"createdAt\":\"2023-07-24T14:31:50+00:00\",\"updatedAt\":\"2024-02-19T17:13:19+00:00\"},{\"type\":{\"label\":\"Email\",\"value\":\"EMAIL\"},\"id\":4,\"settingKey\":\"CONTACT_EMAIL\",\"value\":\"info@wigglz.co\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2024-06-01T17:32:02+00:00\"},{\"type\":{\"label\":\"Text\",\"value\":\"TEXT\"},\"id\":5,\"settingKey\":\"CONTACT_HOURS\",\"value\":\"24 hrs\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2023-11-01T13:39:49+00:00\"},{\"type\":{\"label\":\"Text\",\"value\":\"TEXT\"},\"id\":6,\"settingKey\":\"LOCATION_EN\",\"value\":\"Beirut, Lebanon\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2023-11-08T09:47:58+00:00\"},{\"type\":{\"label\":\"Text\",\"value\":\"TEXT\"},\"id\":7,\"settingKey\":\"LOCATION_AR\",\"value\":\"لبنان\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2023-11-08T09:48:46+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":8,\"settingKey\":\"TIKTOK_LINK\",\"value\":\"https://www.tiktok.com/@wigglz4pets\",\"createdAt\":\"2023-07-24T14:31:50+00:00\",\"updatedAt\":\"2024-05-13T17:16:28+00:00\"},{\"type\":{\"label\":\"Phone Number\",\"value\":\"PHONE_NUMBER\"},\"id\":9,\"settingKey\":\"PHONE_NUMBER\",\"value\":\"+96171392252\",\"createdAt\":\"2023-07-24T14:34:38+00:00\",\"updatedAt\":\"2024-02-16T18:54:02+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":10,\"settingKey\":\"WHATSAPP_LINK\",\"value\":\"https://wa.me/96171392252\",\"createdAt\":\"2023-07-24T14:28:33+00:00\",\"updatedAt\":\"2023-07-24T14:28:33+00:00\"}]}],[\"$\",\"$L1e\",null,{\"multiTypeSettings\":[{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":1,\"settingKey\":\"FACEBOOK_LINK\",\"value\":\"https://www.facebook.com/Wigglzfreshfood\",\"createdAt\":\"2023-07-24T14:28:33+00:00\",\"updatedAt\":\"2024-05-13T17:19:24+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":2,\"settingKey\":\"INSTAGRAM_LINK\",\"value\":\"https://instagram.com/wigglz4pets\",\"createdAt\":\"2023-07-24T14:30:11+00:00\",\"updatedAt\":\"2024-02-14T15:21:42+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":3,\"settingKey\":\"YOUTUBE_LINK\",\"value\":null,\"createdAt\":\"2023-07-24T14:31:50+00:00\",\"updatedAt\":\"2024-02-19T17:13:19+00:00\"},{\"type\":{\"label\":\"Email\",\"value\":\"EMAIL\"},\"id\":4,\"settingKey\":\"CONTACT_EMAIL\",\"value\":\"info@wigglz.co\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2024-06-01T17:32:02+00:00\"},{\"type\":{\"label\":\"Text\",\"value\":\"TEXT\"},\"id\":5,\"settingKey\":\"CONTACT_HOURS\",\"value\":\"24 hrs\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2023-11-01T13:39:49+00:00\"},{\"type\":{\"label\":\"Text\",\"value\":\"TEXT\"},\"id\":6,\"settingKey\":\"LOCATION_EN\",\"value\":\"Beirut, Lebanon\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2023-11-08T09:47:58+00:00\"},{\"type\":{\"label\":\"Text\",\"value\":\"TEXT\"},\"id\":7,\"settingKey\":\"LOCATION_AR\",\"value\":\"لبنان\",\"createdAt\":\"2023-07-24T14:32:23+00:00\",\"updatedAt\":\"2023-11-08T09:48:46+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":8,\"settingKey\":\"TIKTOK_LINK\",\"value\":\"https://www.tiktok.com/@wigglz4pets\",\"createdAt\":\"2023-07-24T14:31:50+00:00\",\"updatedAt\":\"2024-05-13T17:16:28+00:00\"},{\"type\":{\"label\":\"Phone Number\",\"value\":\"PHONE_NUMBER\"},\"id\":9,\"settingKey\":\"PHONE_NUMBER\",\"value\":\"+96171392252\",\"createdAt\":\"2023-07-24T14:34:38+00:00\",\"updatedAt\":\"2024-02-16T18:54:02+00:00\"},{\"type\":{\"label\":\"Link\",\"value\":\"LINK\"},\"id\":10,\"settingKey\":\"WHATSAPP_LINK\",\"value\":\"https://wa.me/96171392252\",\"createdAt\":\"2023-07-24T14:28:33+00:00\",\"updatedAt\":\"2023-07-24T14:28:33+00:00\"}]}]]}]}]}]}]}]}]}]\n"])</script><script>self.__next_f.push([1,"1a:null\n"])</script><script>$RX=function(b,c,d,e){var a=document.getElementById(b);a&&(b=a.previousSibling,b.data="$!",a=a.dataset,c&&(a.dgst=c),d&&(a.msg=d),e&&(a.stck=e),b._reactRetry&&b._reactRetry())};;$RX("B:0","3245152445")</script><script>self.__next_f.push([1,"1f:I{\"id\":8600,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"8080:static/chunks/8080-8da12c97df5c7965.js\",\"3302:static/chunks/3302-49cc942d3f1950ea.js\",\"7420:static/chunks/7420-a9e801c6f9d794ac.js\",\"7188:static/chunks/7188-64b87523d9ef255c.js\",\"6704:static/chunks/6704-87d6c36d7d7f995e.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"803:static/chunks/app/[lang]/shop/page-5171c2879d56f9f5.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"20:I{\"id\":5002,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"8080:static/chunks/8080-8da12c97df5c7965.js\",\"3302:static/chunks/3302-49cc942d3f1950ea.js\",\"7420:static/chunks/7420-a9e801c6f9d794ac.js\",\"7188:static/chunks/7188-64b87523d9ef255c.js\",\"6704:static/chunks/6704-87d6c36d7d7f995e.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"803:static/chunks/app/[lang]/shop/page-5171c2879d56f9f5.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"21:I{\"id\":5778,\"chunks\":[\"3676:static/chunks/870fdd6f-a266bf78765eab9a.js\",\"3015:static/chunks/3015-5fe0551fc77ded48.js\",\"6816:static/chunks/6816-1d80b7b74ff8fbab.js\",\"4358:static/chunks/4358-e4c904408beeee3e.js\",\"3222:static/chunks/3222-1bd76f48ecb76f29.js\",\"4250:static/chunks/4250-1f1d2998f2f7816a.js\",\"109:static/chunks/109-295cb25014776246.js\",\"8161:static/chunks/8161-fb5bd81976386525.js\",\"8080:static/chunks/8080-8da12c97df5c7965.js\",\"3302:static/chunks/3302-49cc942d3f1950ea.js\",\"7420:static/chunks/7420-a9e801c6f9d794ac.js\",\"7188:static/chunks/7188-64b87523d9ef255c.js\",\"6704:static/chunks/6704-87d6c36d7d7f995e.js\",\"7481:static/chunks/7481-8550e929b2fe4ed7.js\",\"803:static/chunks/app/[lang]/shop/page-5171c2879d56f9f5.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1b:[\"$\",\"div\",null,{\"className\":\"shop_page shop_page_2021\",\"children\":[\"$\",\"div\",null,{\"className\":\"shop_container container-fluid\",\"children\":[[\"$\",\"div\",null,{\"className\":\"  pt-md-4 mb-3rem\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-center font-astique\",\"children\":\"Discover Our Product\"}],[\"$\",\"hr\",null,{}]]}],[\"$\",\"div\",null,{\"className\":\"row row-md-3 mt-2rem\",\"children\":[[\"$\",\"div\",null,{\"className\":\"col-12 col-md filters_container max-w-auto\",\"children\":[\"$\",\"div\",null,{\"className\":\"shop_filters \",\"children\":[\"$\",\"$L1f\",null,{\"petTypes\":[{\"id\":5,\"name\":\"Dogs\"},{\"id\":6,\"name\":\"Cats\"}],\"categoriesList\":[{\"id\":3,\"name\":\"Raw Meals\"},{\"id\":4,\"name\":\"Gently Cooked Meals\"},{\"id\":10,\"name\":\"Treats\"},{\"id\":13,\"name\":\"Oven Baked Dry Food\"}],\"brands\":[{\"id\":1,\"name\":\"Wigglz\"}],\"healthConditions\":[{\"id\":10,\"name\":\"General Health Improvement\"}],\"stageOfLife\":[{\"id\":6,\"name\":\"Senior Dog\"},{\"id\":5,\"name\":\"Adult Dog\"},{\"id\":4,\"name\":\"Puppy\"},{\"id\":3,\"name\":\"Senior Cat\"},{\"id\":2,\"name\":\"Adult Cat\"},{\"id\":1,\"name\":\"Kitten\"}]}]}]}],[\"$\",\"div\",null,{\"className\":\"col-12 col-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4\",\"children\":[[\"$\",\"div\",\"24\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"chicken-champion_1717088984\",\"id\":24,\"name\":\"Chicken Champion\",\"price\":4,\"imageFileUrl\":\"/uploads/product/May-2024/24b1e9a1-4d67-40df-b739-aacb518a3961.jpeg\",\"description\":\"Chicken \u0026 veggies raw meal for dogs.\\r\\nA meal for general health maintenance.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"25\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"the-beefy_1717089024\",\"id\":25,\"name\":\"The Beefy\",\"price\":4.5,\"imageFileUrl\":\"/uploads/product/May-2024/737c1e78-27f8-43ef-8e48-fc83c0aaa55b.png\",\"description\":\"Beef \u0026 Veggies Raw Meal for Dogs.\\r\\nHigh in protein, low in calories meal, great for general health maintenance.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"26\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"big-mix_1717089056\",\"id\":26,\"name\":\"Big Mix\",\"price\":4.5,\"imageFileUrl\":\"/uploads/product/May-2024/e9a5b62a-bbea-4ab9-9690-d9e7d6c563f2.png\",\"description\":\"Beef \u0026 chicken mix raw meal for dogs.\\r\\nA meal for general health maintenance.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"37\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"ocean-and-land-feast_1717089205\",\"id\":37,\"name\":\"Ocean and Land Feast\",\"price\":2.5,\"imageFileUrl\":\"/uploads/product/May-2024/b9ff2a99-a7d4-43b6-8926-3eec46731245.png\",\"description\":\"Fish \u0026 chicken mix raw meal for cats.\\r\\nGreat source of protein, aids in gastro-intestinal digestive functions, weight management, maintains urinary health, promotes healthy skin \u0026 coat, anti-inflammatory, \u0026 supports joints.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"38\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"big-mix_1717089241\",\"id\":38,\"name\":\"Big Mix\",\"price\":2.5,\"imageFileUrl\":\"/uploads/product/May-2024/0d7d9d74-12b9-4284-bed9-2a3cf195905f.png\",\"description\":\"Beef \u0026 chicken mix raw meal for cats.\\r\\nLean source of protein, great energy source, build \u0026 repair tissues, support muscle growth, promote healthy skin \u0026 glossy coat, \u0026 support immune system.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"39\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"the-beefy_1717089269\",\"id\":39,\"name\":\"The Beefy\",\"price\":2.5,\"imageFileUrl\":\"/uploads/product/May-2024/a61103ba-da64-41ce-8eb1-0470a05c6184.png\",\"description\":\"Pure beef raw meal for cats.\\r\\nBone growth aid, healthy skin and coat, pre-biotic \u0026 digestion aid, fiber for gastrointestinal.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"34\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"big-mix_1717089095\",\"id\":34,\"name\":\"Big Mix\",\"price\":4.5,\"imageFileUrl\":\"/uploads/product/May-2024/c62224c2-c8d4-4cba-9f98-4c8378746f6c.png\",\"description\":\"Beef \u0026 chicken cooked meal for dogs.\\r\\nA meal for general health maintenance.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"35\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"the-beefy_1717089135\",\"id\":35,\"name\":\"The Beefy\",\"price\":4.5,\"imageFileUrl\":\"/uploads/product/May-2024/4d7cf536-e45b-4d8a-845b-46b24a0eb267.png\",\"description\":\"Gently cooked beef meal for dogs.\\r\\nA meal for general health maintenance.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"36\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"chicken-champion_1717089167\",\"id\":36,\"name\":\"Chicken Champion\",\"price\":4,\"imageFileUrl\":\"/uploads/product/May-2024/661dff74-1be9-4efe-8c33-97159fc9eaa6.png\",\"description\":\"Gently cooked chicken meal for dogs.\\r\\nA meal for general health maintenance.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"40\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"the-beefy_1717089309\",\"id\":40,\"name\":\"The Beefy\",\"price\":2.5,\"imageFileUrl\":\"/uploads/product/May-2024/c4e0fac3-720a-4968-9dd7-158479dbdf2d.png\",\"description\":\"Pure beef cooked meal for cats.\\r\\nBone growth aid, healthy skin and coat, pre-biotic \u0026 digestion aid, fiber for gastrointestinal.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"41\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"big-mix_1717089351\",\"id\":41,\"name\":\"Big Mix\",\"price\":2.5,\"imageFileUrl\":\"/uploads/product/May-2024/dc634235-8d1f-4ee1-a4d1-8dd7170bfccb.png\",\"description\":\"Beef \u0026 chicken mix cooked meal for cats.\\r\\nlean source of protein, great energy source, build \u0026 repair tissues, support muscle growth, promote healthy skin \u0026 glossy coat, \u0026 support immune system.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}],[\"$\",\"div\",\"42\",{\"className\":\"col-12 col-sm-6 mb-4\",\"children\":[\"$\",\"$L20\",null,{\"product\":{\"slug\":\"ocean-and-land-feast_1717089386\",\"id\":42,\"name\":\"Ocean and Land Feast\",\"price\":2.5,\"imageFileUrl\":\"/uploads/product/May-2024/1a5d8e7f-1af7-4bec-a81f-3b6827aa7768.png\",\"description\":\"Fish \u0026 chicken mix cooked meal for cats.\\r\\nGreat source of protein, aids in gastro-intestinal digestive functions, weight management, maintains urinary health, promotes healthy skin \u0026 coat, anti-inflammatory, \u0026 supports joints.\",\"currencyCode\":\"USD\",\"quantity\":\"$undefined\"}}]}]]}],[\"$\",\"div\",null,{\"className\":\"d-flex flex-column gap-2 align-items-center justify-content-center\",\"children\":[\"$\",\"$L21\",null,{\"hasNextPage\":true,\"hasPrevPage\":false}]}]]}]]}]]}]}]\n"])</script><script id="_next-gtm-init" data-nscript="afterInteractive">
+      (function(w,l){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+        
+      })(window,'dataLayer');</script><script src="https://www.googletagmanager.com/gtm.js?id=GTM-WP8GX2PQ" id="_next-gtm" data-ntpc="GTM" data-nscript="afterInteractive"></script><script data-nscript="afterInteractive">
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '457668893262694');
+                fbq('track', 'PageView');
+                </script><next-route-announcer style="position: absolute;"></next-route-announcer><div class="relative z-[5]" dir="ltr" lang="en"><div class="Toastify"></div><header><div class="w-100 desktop_header d-none d-lg-block"><div class="desktop_header_container"><div class="desktop_header"><div class="desktop_header_container"><div class="main_header_container"><div class="container-fluid d-flex"><div class="main_menu_left d-flex flex-row justify-content-start align-items-stretch"><div class="relative inline-block text-left px-2 " data-headlessui-state=""><div class="h-100 d-flex justify-content-center align-items-center"><button class="d-flex justify-content-center align-items-center rounded-md px-2 py-4 font-medium outline-none border-none" id="headlessui-menu-button-:r4:" type="button" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" style="background: transparent; border: none;"><div class="d-flex gap-3 main_menu_item_link p-0 font-astique">Shop</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100" style="width: 20px; height: 20px;"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg></button></div></div><a class="main_menu_item_link d-flex align-items-center px-4 font-astique" href="#">about</a><div class="relative inline-block text-left px-2" data-headlessui-state=""><div class="h-100 d-flex justify-content-center align-items-center"><button class="d-flex justify-content-center align-items-center rounded-md px-2 py-4 font-medium outline-none border-none" id="headlessui-menu-button-:r5:" type="button" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" style="background: transparent; border: none;"><div class="d-flex gap-3 main_menu_item_link p-0 font-astique">help</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100" style="width: 20px; height: 20px;"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg></button></div></div></div><div class="main_header_logo_container"><a class="d-block" href="#"><img alt="Wigglz Logo" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" src="/images/LOGO.svg" style="color: transparent;"></a></div><div class="main_menu_right d-flex flex-row justify-content-end align-items-stretch px-2"><a class="main_menu_item_link d-flex align-items-center font-astique" href="#">Login</a><div class=" d-flex align-items-center main_menu_item cart_button_container px-2"><div class="cart_button  text-center "><i class="fa fa-shopping-cart"></i></div></div><div class="relative inline-block text-left px-2" data-headlessui-state=""><div class="h-100 d-flex justify-content-center align-items-center"><button class="d-flex justify-content-center align-items-center rounded-md px-2 py-4 font-medium outline-none border-none" id="headlessui-menu-button-:r6:" type="button" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" style="background: transparent; border: none;"><div class="d-flex gap-3"><img alt="English flag icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/image?url=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F197%2F197629.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F197%2F197629.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F197%2F197629.png&amp;w=48&amp;q=75" style="color: transparent;"><span class="hidden display-md-block">Lebanon</span></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100" style="width: 20px; height: 20px;"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg></button></div></div></div></div></div></div><div class="container-fluid"><div class="main_dd_container"><div class="header_desktop_details header_desktop_dogs" data-id="header_desktop_dogs"><div class="sub_menu_container"><a href="ae-en/shopc451.html?category=balanced-meals&amp;pet_type%5B%5D=dog&amp;filter=on" class="smc_item_section" data-firstitemid="137" data-menutype="header_desktop_dogs" data-menupid="24" data-sectiontwo=""><i class="fa fa-angle-right"></i>Balanced Meals</a></div><div class="sub_menu_items_container"><div class="menu_item_section_container secid_24" data-secid="24"><a href="product/chicken-veg-2-pack-dogs.html" class="smc_item smc_item_137" data-miid="137">Chicken &amp; Organic Vegetables</a></div></div></div></div></div></div></div></div><div class="mobile_header d-lg-none"><div class="mobile_header_container"><div class="w-100 d-flex px-4 mobile_top_container justify-content-between align-items-stretch " style="height: 60px;"><div class="col-5 px-0 w-25 d-flex align-items-center mobile_menu_bars justify-content-start"><button type="button" class="menu_bars"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="13" viewBox="0 0 23 13"><g transform="translate(-15.5 -17)"><line class="menu_bars" x2="23" transform="translate(15.5 17.5)"></line><line class="menu_bars" x2="23" transform="translate(15.5 23.5)"></line><line class="menu_bars" x2="23" transform="translate(15.5 29.5)"></line></g></svg></button><div class="relative inline-block text-left px-2" data-headlessui-state=""><div class="h-100 d-flex justify-content-center align-items-center"><button class="d-flex justify-content-center align-items-center rounded-md px-2 py-4 font-medium outline-none border-none" id="headlessui-menu-button-:r7:" type="button" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" style="background: transparent; border: none;"><div class="d-flex gap-3"><img alt="English flag icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/image?url=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F197%2F197629.png&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F197%2F197629.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F197%2F197629.png&amp;w=48&amp;q=75" style="color: transparent;"><span class="hidden display-md-block">Lebanon</span></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100" style="width: 20px; height: 20px;"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg></button></div></div><div class="menu_close"><svg xmlns="http://www.w3.org/2000/svg" width="18.707" height="18.707" viewBox="0 0 18.707 18.707"><g transform="translate(-80.146 -17.146)"><line class="menu_close" x1="18" y2="18" transform="translate(80.5 17.5)"></line><line class="menu_close" x2="18" y2="18" transform="translate(80.5 17.5)"></line></g></svg></div></div><div class="col-5 px-0  d-flex justify-content-center align-items-center"><div class="mobile_logo_container" style="padding-top: 0px;"><div class="main_header_logo_container"><a class="d-block" href="#"><img alt="Wigglz Logo" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="h-100" src="/images/LOGO.svg" style="color: transparent;"></a></div></div></div><div class="cart-icon col-5 px-0 d-flex align-items-center justify-content-end"><div class="mobile_cart_icon text-center border-none" style="cursor: pointer;"><div class="mobile_cart_icon_container"><div class="cart_items">0</div><i class="fa fa-shopping-cart"></i></div><div class="mobile_cart_icon_container_close"><svg xmlns="http://www.w3.org/2000/svg" width="18.707" height="18.707" viewBox="0 0 18.707 18.707"><g transform="translate(-80.146 -17.146)"><line class="menu_close" x1="18" y2="18" transform="translate(80.5 17.5)"></line><line class="menu_close" x2="18" y2="18" transform="translate(80.5 17.5)"></line></g></svg></div></div></div></div></div><div class="mobile_header_spacer "></div><div id="example-navbar-warning"></div></div></header><div lang="en"><div class="shop_page shop_page_2021"><div class="shop_container container-fluid"><div class="  pt-md-4 mb-3rem"><h2 class="text-center font-astique">Discover Our Product</h2><hr></div><div class="row row-md-3 mt-2rem"><div class="col-12 col-md filters_container max-w-auto"><div class="shop_filters "><div class="search_input_group mb-5 d-none d-md-block" style="margin: 0px 1rem; border-radius: 5px;"><div class="d-flex justify-content-between"><input placeholder="Search" class="flex-grow-1 px-2 filter_search border-0" type="text"><button class="search_button" type="button"><i class="fa fa-search"></i> </button></div></div><div><div class="filter_section"><div id="pr_id_1" class="p-accordion p-component accordion bg-unset" data-pc-name="accordion" data-pc-section="root"><div class="p-accordion-tab" data-pc-name="" data-pc-section="root"><div class="p-accordion-header custom_accordion_card font-astique" data-pc-section="header"><a id="pr_id_1_header_0" href="#pr_id_1_content_0" class="p-accordion-header-link" role="tab" tabindex="0" aria-label="Expand" aria-controls="pr_id_1_content_0" aria-expanded="false" data-pc-section="headeraction"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-accordion-toggle-icon" aria-hidden="true" data-pc-section="headericon"><path d="M4.38708 13C4.28408 13.0005 4.18203 12.9804 4.08691 12.9409C3.99178 12.9014 3.9055 12.8433 3.83313 12.7701C3.68634 12.6231 3.60388 12.4238 3.60388 12.2161C3.60388 12.0084 3.68634 11.8091 3.83313 11.6622L8.50507 6.99022L3.83313 2.31827C3.69467 2.16968 3.61928 1.97313 3.62287 1.77005C3.62645 1.56698 3.70872 1.37322 3.85234 1.22959C3.99596 1.08597 4.18972 1.00371 4.3928 1.00012C4.59588 0.996539 4.79242 1.07192 4.94102 1.21039L10.1669 6.43628C10.3137 6.58325 10.3962 6.78249 10.3962 6.99022C10.3962 7.19795 10.3137 7.39718 10.1669 7.54416L4.94102 12.7701C4.86865 12.8433 4.78237 12.9014 4.68724 12.9409C4.59212 12.9804 4.49007 13.0005 4.38708 13Z" fill="currentColor"></path></svg><span class="p-accordion-header-text" data-pc-section="headertitle"><div class="filter_header p-3 d-flex flex-row justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapsebrands"><div class="f-16"><strong class="font-astique">Pet Types</strong></div></div></span></a></div></div></div></div><div class="filter_section"><div id="pr_id_2" class="p-accordion p-component accordion bg-unset" data-pc-name="accordion" data-pc-section="root"><div class="p-accordion-tab" data-pc-name="" data-pc-section="root"><div class="p-accordion-header custom_accordion_card font-astique" data-pc-section="header"><a id="pr_id_2_header_0" href="#pr_id_2_content_0" class="p-accordion-header-link" role="tab" tabindex="0" aria-label="Expand" aria-controls="pr_id_2_content_0" aria-expanded="false" data-pc-section="headeraction"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-accordion-toggle-icon" aria-hidden="true" data-pc-section="headericon"><path d="M4.38708 13C4.28408 13.0005 4.18203 12.9804 4.08691 12.9409C3.99178 12.9014 3.9055 12.8433 3.83313 12.7701C3.68634 12.6231 3.60388 12.4238 3.60388 12.2161C3.60388 12.0084 3.68634 11.8091 3.83313 11.6622L8.50507 6.99022L3.83313 2.31827C3.69467 2.16968 3.61928 1.97313 3.62287 1.77005C3.62645 1.56698 3.70872 1.37322 3.85234 1.22959C3.99596 1.08597 4.18972 1.00371 4.3928 1.00012C4.59588 0.996539 4.79242 1.07192 4.94102 1.21039L10.1669 6.43628C10.3137 6.58325 10.3962 6.78249 10.3962 6.99022C10.3962 7.19795 10.3137 7.39718 10.1669 7.54416L4.94102 12.7701C4.86865 12.8433 4.78237 12.9014 4.68724 12.9409C4.59212 12.9804 4.49007 13.0005 4.38708 13Z" fill="currentColor"></path></svg><span class="p-accordion-header-text" data-pc-section="headertitle"><div class="filter_header p-3 d-flex flex-row justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapsebrands"><div class="f-16"><strong class="font-astique">Categories</strong></div></div></span></a></div></div></div></div><div class="filter_section"><div id="pr_id_3" class="p-accordion p-component accordion bg-unset" data-pc-name="accordion" data-pc-section="root"><div class="p-accordion-tab" data-pc-name="" data-pc-section="root"><div class="p-accordion-header custom_accordion_card font-astique" data-pc-section="header"><a id="pr_id_3_header_0" href="#pr_id_3_content_0" class="p-accordion-header-link" role="tab" tabindex="0" aria-label="Expand" aria-controls="pr_id_3_content_0" aria-expanded="false" data-pc-section="headeraction"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-accordion-toggle-icon" aria-hidden="true" data-pc-section="headericon"><path d="M4.38708 13C4.28408 13.0005 4.18203 12.9804 4.08691 12.9409C3.99178 12.9014 3.9055 12.8433 3.83313 12.7701C3.68634 12.6231 3.60388 12.4238 3.60388 12.2161C3.60388 12.0084 3.68634 11.8091 3.83313 11.6622L8.50507 6.99022L3.83313 2.31827C3.69467 2.16968 3.61928 1.97313 3.62287 1.77005C3.62645 1.56698 3.70872 1.37322 3.85234 1.22959C3.99596 1.08597 4.18972 1.00371 4.3928 1.00012C4.59588 0.996539 4.79242 1.07192 4.94102 1.21039L10.1669 6.43628C10.3137 6.58325 10.3962 6.78249 10.3962 6.99022C10.3962 7.19795 10.3137 7.39718 10.1669 7.54416L4.94102 12.7701C4.86865 12.8433 4.78237 12.9014 4.68724 12.9409C4.59212 12.9804 4.49007 13.0005 4.38708 13Z" fill="currentColor"></path></svg><span class="p-accordion-header-text" data-pc-section="headertitle"><div class="filter_header p-3 d-flex flex-row justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapsebrands"><div class="f-16"><strong class="font-astique">Stage Of Life</strong></div></div></span></a></div></div></div></div></div></div></div><div class="col-12 col-md"><div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4"><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F24b1e9a1-4d67-40df-b739-aacb518a3961.jpeg&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F24b1e9a1-4d67-40df-b739-aacb518a3961.jpeg&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F24b1e9a1-4d67-40df-b739-aacb518a3961.jpeg&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Chicken Champion</h3><div class="price py-2 font-astique">4 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F737c1e78-27f8-43ef-8e48-fc83c0aaa55b.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F737c1e78-27f8-43ef-8e48-fc83c0aaa55b.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F737c1e78-27f8-43ef-8e48-fc83c0aaa55b.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">The Beefy</h3><div class="price py-2 font-astique">4.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fe9a5b62a-bbea-4ab9-9690-d9e7d6c563f2.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fe9a5b62a-bbea-4ab9-9690-d9e7d6c563f2.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fe9a5b62a-bbea-4ab9-9690-d9e7d6c563f2.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Big Mix</h3><div class="price py-2 font-astique">4.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fb9ff2a99-a7d4-43b6-8926-3eec46731245.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fb9ff2a99-a7d4-43b6-8926-3eec46731245.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fb9ff2a99-a7d4-43b6-8926-3eec46731245.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Ocean and Land Feast</h3><div class="price py-2 font-astique">2.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F0d7d9d74-12b9-4284-bed9-2a3cf195905f.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F0d7d9d74-12b9-4284-bed9-2a3cf195905f.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F0d7d9d74-12b9-4284-bed9-2a3cf195905f.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Big Mix</h3><div class="price py-2 font-astique">2.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fa61103ba-da64-41ce-8eb1-0470a05c6184.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fa61103ba-da64-41ce-8eb1-0470a05c6184.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fa61103ba-da64-41ce-8eb1-0470a05c6184.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">The Beefy</h3><div class="price py-2 font-astique">2.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fc62224c2-c8d4-4cba-9f98-4c8378746f6c.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fc62224c2-c8d4-4cba-9f98-4c8378746f6c.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fc62224c2-c8d4-4cba-9f98-4c8378746f6c.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Big Mix</h3><div class="price py-2 font-astique">4.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F4d7cf536-e45b-4d8a-845b-46b24a0eb267.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F4d7cf536-e45b-4d8a-845b-46b24a0eb267.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F4d7cf536-e45b-4d8a-845b-46b24a0eb267.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">The Beefy</h3><div class="price py-2 font-astique">4.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F661dff74-1be9-4efe-8c33-97159fc9eaa6.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F661dff74-1be9-4efe-8c33-97159fc9eaa6.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F661dff74-1be9-4efe-8c33-97159fc9eaa6.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Chicken Champion</h3><div class="price py-2 font-astique">4 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fc4e0fac3-720a-4968-9dd7-158479dbdf2d.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fc4e0fac3-720a-4968-9dd7-158479dbdf2d.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fc4e0fac3-720a-4968-9dd7-158479dbdf2d.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">The Beefy</h3><div class="price py-2 font-astique">2.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fdc634235-8d1f-4ee1-a4d1-8dd7170bfccb.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fdc634235-8d1f-4ee1-a4d1-8dd7170bfccb.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2Fdc634235-8d1f-4ee1-a4d1-8dd7170bfccb.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Big Mix</h3><div class="price py-2 font-astique">2.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div><div class="col-12 col-sm-6 mb-4"><div class="main-card position-relative product-card bg-transparent border-none d-flex flex-column"><div class="card-image bg-transparent d-flex justify-content-center "><div><img alt="" loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" class="bg-white rounded-5 object-fit-lg-cover max-w-product-card" srcset="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F1a5d8e7f-1af7-4bec-a81f-3b6827aa7768.png&amp;w=1080&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F1a5d8e7f-1af7-4bec-a81f-3b6827aa7768.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fbackend.wigglz.co%2Fuploads%2Fproduct%2FMay-2024%2F1a5d8e7f-1af7-4bec-a81f-3b6827aa7768.png&amp;w=2048&amp;q=75" style="color: transparent;"></div></div><div class="card-details d-flex justify-content-center align-items-center flex-column bg-transparent"><h3 class="text-center name-limit pt-1 pb-4 font-astique">Ocean and Land Feast</h3><div class="price py-2 font-astique">2.5 USD</div></div><div class="d-flex justify-content-center"><div class="position-relative bg-purple rounded-circle text-white fs-6 p-1 m-1 opacity-1        transition d-flex justify-content-center align-items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></div></div></div></div></div><div class="d-flex flex-column gap-2 align-items-center justify-content-center"><div class="d-flex w-25 gap-2 justify-content-between align-items-center"><button type="button" class="p-1 rounded outline-none border-none" disabled="" style="background: none; border: none;">Prev Page</button><div>1</div><button type="button" class="p-1 border-none rounded" style="background: none; border: none;">Next Page</button></div></div></div></div></div></div></div><div class="fixed bg-golden whatsapp-button"><button type="button" class="bg-blue-wigglz text-white hover:bg-greenish transition duration-200 border-0 w-100 " style="display: flex; justify-content: center; align-items: center;"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-xl " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></button></div><footer><div class="w-100 d-flex responsive-min-height justify-content-center align-items-center" style="background-image: url(&quot;../../../../images/foote.png&quot;); background-repeat: no-repeat; background-size: cover;"><div class="row w-100 mt-14rem mt-10rem"><div class="col-6 col-lg-4"><img class="w-60 w-75 ml-4rem ml-2rem mt-1rem w-100-m" src="/images/LOGO.png" alt="logo"></div><div class="col-6 col-lg-5"><div class="row"><div class="col-6"><p class="mb-3 f-22 f-16-m font-astique">Contact Us</p><p class="f-18 f-11 fw-500 font-astique"><a href="mailto:info@wigglz.co"> info@wigglz.co</a><br><a href="tel:+96171392252"> +96171392252</a><br><span class="f-18 f-11 fw-500 font-astique">Beirut, Lebanon</span></p></div><div class="col-6"><p class="mb-3 f-22 f-16-m font-astique">Wigglz Pages</p><p class="f-18 f-11 fw-500 font-ge"><a class="main_menu_item_link d-flex align-items-center px-4 font-astique" href="#">Shop</a><a class="main_menu_item_link d-flex align-items-center px-4 font-astique" href="#">Message Us</a><a class="main_menu_item_link d-flex align-items-center px-4 font-astique" href="#">Why fresh?</a></p></div></div></div><div class="col-12 col-lg-3 d-flex flex-column justify-content-center align-items-center"><div class="row w-100"><div class="site_info col-6 col-lg-12 p-0-m"><ul class="social_links w-100"><li><a href="https://www.facebook.com/Wigglzfreshfood" target="_blank" rel="noreferrer"><img src="/images/facebook.png" alt="" style="width: 20px; height: 20px; margin-bottom: 0.2rem;"></a></li><li><a href="https://instagram.com/wigglz4pets" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="" style="width: 20px; height: 20px; margin-bottom: 0.2rem;"></a></li><li><a href="https://www.tiktok.com/@wigglz4pets" target="_blank" rel="noreferrer"><img src="/images/tik-tok.png" alt="" style="width: 20px; height: 20px; margin-bottom: 0.2rem;"></a></li></ul><div class="clearfix"></div></div><div class="d-flex flex-column gap-1 col-6 col-lg-12 d-none-m"><a class="text-center f-18" href="#"><span class="mb-3 font-astique">Terms &amp; Conditions</span></a><a class="text-center f-18" href="#"><span class="mb-3 font-astique">Privacy Policy</span></a></div></div></div></div></div></footer></div></body><noscript></noscript></html>
